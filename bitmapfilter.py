@@ -122,11 +122,11 @@ def blur(image, height, width):
             count = 0
 
             # use box blur method to create desired effect
-            for i in range(3):
+            for i in range(10):
                 if y - 1 + i < 0 or y - 1 + i > height - 1:
                     continue
 
-                for j in range(3):
+                for j in range(10):
                     if x - 1 + j >= 0 and x - 1 + j < width - 1:
                         count += 1
                         blue += image[y - 1 + i][x - 1 + j]["Blue"][0]
