@@ -12,7 +12,7 @@
 ## Screenshots
 
 ![Bitmap-FILTER](demo.png)
-Original 24 Bitmap:
+Original 24 Bit Bitmap Image:
 ![Bitmap-FILTER](Zen.bmp)
 Grayscale:
 ![Bitmap-FILTER](Zen.bmp_grayscale.bmp)
